@@ -1,0 +1,36 @@
+{
+	"name": "english-ai-lessons",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Translate subtitle using ChatGPT",
+	"main": "index.js",
+	"scripts": {
+		"start": " node --env-file=.env src/index.js",
+		"example": "nodemon --env-file=.env src/example.js",
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+		"test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gnehs/subtitle-translator.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/gnehs/subtitle-translator/issues"
+	},
+	"homepage": "https://github.com/gnehs/subtitle-translator#readme",
+	"dependencies": {
+		"@jest/globals": "^30.0.2",
+		"colors": "^1.4.0",
+		"csv-parse": "^5.6.0",
+		"jest": "^30.0.2",
+		"mustache": "^4.2.0",
+		"open": "^10.1.2",
+		"openai": "^4.100.0"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.27.2",
+		"nodemon": "^3.1.10"
+	}
+}

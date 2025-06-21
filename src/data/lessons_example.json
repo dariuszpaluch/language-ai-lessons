@@ -1,0 +1,100 @@
+{
+	"lessons": [
+		{
+			"title": "Subject-Verb Agreement",
+			"explanation": "In English, the verb must agree with its subject in number and person. This means that if the subject is singular, the verb should be singular. If the subject is plural, the verb should be plural. For example, ‘he does,’ but ‘they do.’ Common mistakes often occur with third person singular subjects (he, she, it) where learners may use the base form of the verb instead of the -s/-es ending.",
+			"examples": [
+				{
+					"original": "Checkboxes are visible in preview as inactive.",
+					"corrected": "Checkboxes are visible in <strong>the</strong> preview as inactive."
+				},
+				{
+					"original": "Table is visible in editor and checkboxes are not active",
+					"corrected": "<strong>The</strong> table is visible in <strong>the</strong> editor and checkboxes are not active"
+				},
+				{
+					"original": "I saw that we have empty backlog, please take something from code-review or testing",
+					"corrected": "I saw that we have <strong>an</strong> empty backlog, please take something from code-review or testing"
+				},
+				{
+					"original": "After click checkbox, he got redirection to registration page.",
+					"corrected": "After <strong>clicking the</strong> checkbox, he got <strong>redirected</strong> to <strong>the</strong> registration page."
+				},
+				{
+					"original": "If you stuck, please ping here",
+					"corrected": "If you <strong>are stuck</strong>, please ping here"
+				}
+			],
+			"tasks": [
+				{
+					"description": "Choose the correct verb form: The team (work/works) on the new feature every Monday.",
+					"answer": "works"
+				},
+				{
+					"description": "Correct the sentence: If you need any help, let me knows.",
+					"answer": "If you need any help, let me know."
+				},
+				{
+					"description": "Fill in the blank: They (is/are) planning to release the update soon.",
+					"answer": "are"
+				},
+				{
+					"description": "Choose the correct verb: He (want/wants) to check the logs.",
+					"answer": "wants"
+				},
+				{
+					"description": "Correct the sentence: My coworkers explains the rules every time.",
+					"answer": "My coworkers explain the rules every time."
+				}
+			]
+		},
+		{
+			"title": "Countable and Uncountable Nouns with Articles",
+			"explanation": "In English, some nouns are countable (can be counted: one ticket, two tickets), and others are uncountable (cannot be counted: information, progress). When using articles (‘a’ or ‘an’), they are used only with singular countable nouns. ‘The’ can be used with both. Uncountable nouns should not have ‘a/an’ and are usually singular. Some abstract nouns (like ‘progress’, ‘information’, ‘data’) are uncountable.",
+			"examples": [
+				{
+					"original": "Please take something from code-review or testing :slightly_smiling_face: if we will have nothing, then ping me we add some ticket into sprint",
+					"corrected": "Please take something from code-review or testing :slightly_smiling_face: if we <strong>have nothing</strong>, then ping me <strong>and</strong> we <strong>will</strong> add some <strong>tickets</strong> into <strong>the</strong> sprint"
+				},
+				{
+					"original": "Do you have any idea to fix that? Beucase it blocks our stuff from merge?",
+					"corrected": "Do you have any idea <strong>how</strong> to fix that? <strong>Because</strong> it blocks our <strong>items/changes</strong> from merging?"
+				},
+				{
+					"original": "We don’t have any preference, we need just data.",
+					"corrected": "We don’t have any preference, we just need <strong>the</strong> data."
+				},
+				{
+					"original": "Are you sure that, keeping this wiki config variable has sence?",
+					"corrected": "Are you sure that keeping this wiki config variable makes <strong>sense</strong>?"
+				},
+				{
+					"original": "The CTOOLS-316 and UXFCP-888 can stay how it'is.",
+					"corrected": "The CTOOLS-316 and UXFCP-888 can stay <strong>as</strong> it is."
+				}
+			],
+			"tasks": [
+				{
+					"description": "Choose the correct word: We do not have (an information/any information) about the issue.",
+					"answer": "any information"
+				},
+				{
+					"description": "Correct the sentence: I received an important feedback.",
+					"answer": "I received important feedback."
+				},
+				{
+					"description": "Fill in the blank: Could you give me (an advice/some advice) about this?",
+					"answer": "some advice"
+				},
+				{
+					"description": "Which is correct: He made a progress / He made progress",
+					"answer": "He made progress"
+				},
+				{
+					"description": "Correct the sentence: Do you have a data for last month?",
+					"answer": "Do you have data for last month?"
+				}
+			]
+		}
+	]
+}

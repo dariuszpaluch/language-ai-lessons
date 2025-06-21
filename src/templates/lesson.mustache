@@ -1,0 +1,27 @@
+<div class="lesson">
+	<h2>{{{title}}}</h2>
+	<p>{{{explanation}}}</p>
+
+	<h3>Examples</h3>
+		<ul class="examples">
+			{{#examples}}
+			<li class="example">
+				<span class="example__original">{{{original}}}</span>
+				<span class="example__corrected">{{{corrected}}}</span>
+			</li>
+			{{/examples}}
+		</ul>
+
+	<h3>Tasks</h3>
+	<ul class="tasks">
+		{{#tasks}}
+		<li class="task">
+			<span class="task__description">{{{description}}}</span>
+			<details class="task__answer">
+				<summary class="task__answer-button">Show answer</summary>
+				<p class="task__answer-text">{{{answer}}}</p>
+			</details>
+		</li>
+		{{/tasks}}
+	</ul>
+</div>
